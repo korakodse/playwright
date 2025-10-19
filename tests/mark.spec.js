@@ -4,7 +4,7 @@ test('mark@api', async ({ request }) => {
         {
             data:{"classroom_id": 7,"user_id": 1,"status": "late"},
             headers:{"Content-Type":"application/json",
-                "Authorization": "Bearer d5b0784263f5da84f9212d512a1189c78c6283b32a4b36f5b4cdd33211e06fb5",
+                "Authorization": "Bearer d24bc75d036de6556e5b8583ffbf42475ffcf26affd7b51be204c2d9e6270f09",
             }   
         });
 
