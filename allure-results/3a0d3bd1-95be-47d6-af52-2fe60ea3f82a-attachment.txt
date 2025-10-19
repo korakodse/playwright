@@ -1,0 +1,7 @@
+📩 Response Data: {
+  message: 'กรุณาเลือกตำแหน่งห้องเรียน',
+  errors: {
+    room_number: [ 'The room number field is required.' ],
+    'schedules.0.day_of_week': [ 'The selected schedules.0.day_of_week is invalid.' ]
+  }
+}

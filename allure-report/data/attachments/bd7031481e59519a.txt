@@ -1,0 +1,13 @@
+📩 Response Data: {
+  message: 'เข้าสู่ระบบสำเร็จ',
+  token: 'e95e78070ee19c39da0b63e3c9d86e0f87c4f7f75dec348ebebb8eed16878917',
+  user: {
+    id: 1,
+    name: 'anutchai',
+    lastname: 'teacher',
+    email: 'pacth3@gmail.com',
+    phone: '0623597120',
+    role_id: 1,
+    department_id: 6
+  }
+}

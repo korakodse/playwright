@@ -3,12 +3,12 @@ import { test, expect } from '@playwright/test';
 test('warntime@api', async ({ request }) => {
   const response = await request.put('http://52.63.155.211/api/classrooms/7/settings/warn-times', {
     data: {
-      "warn_green": 22,
-      "warn_red": 15
+      "warn_green": 20,
+      "warn_red": 10
     },
     headers: {
       "Content-Type": "application/json",
-      "Authorization": "Bearer ee2560f7040d20ed140ca0bbf98bfb0ac6306971098b48ad033ba772afe693db",
+      "Authorization": "Bearer d5b0784263f5da84f9212d512a1189c78c6283b32a4b36f5b4cdd33211e06fb5",
     },
   });
 
@@ -22,11 +22,11 @@ test('warntime@api', async ({ request }) => {
 test('changename@api', async ({ request }) => {
   const response = await request.put('http://52.63.155.211/api/classrooms/7/subject', {
     data: {
-      "name_subject": "Mathematics",
+      "name_subject": "Math",
     },
     headers: {
       "Content-Type": "application/json",
-      "Authorization": "Bearer ee2560f7040d20ed140ca0bbf98bfb0ac6306971098b48ad033ba772afe693db",
+      "Authorization": "Bearer d5b0784263f5da84f9212d512a1189c78c6283b32a4b36f5b4cdd33211e06fb5",
     },
   });
 
@@ -48,7 +48,7 @@ test('holiday@api', async ({ request }) => {
     },
     headers: {
       "Content-Type": "application/json",
-      "Authorization": "Bearer ee2560f7040d20ed140ca0bbf98bfb0ac6306971098b48ad033ba772afe693db",
+      "Authorization": "Bearer d5b0784263f5da84f9212d512a1189c78c6283b32a4b36f5b4cdd33211e06fb5",
     },
   });
 
@@ -66,7 +66,7 @@ test('status@api', async ({ request }) => {
     },
     headers: {
       "Content-Type": "application/json",
-      "Authorization": "Bearer e0de7ecd1c88be1bdcd5fec30a891dcf70e6742eedd88c904e4140a17fc1a432",
+      "Authorization": "Bearer d5b0784263f5da84f9212d512a1189c78c6283b32a4b36f5b4cdd33211e06fb5",
     },
   });
 

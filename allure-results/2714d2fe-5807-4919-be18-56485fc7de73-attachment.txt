@@ -1,0 +1,18 @@
+📩 Response Data: [
+  {
+    week_number: 1,
+    present: '3',
+    absent: '3',
+    leave_count: '3',
+    late: '3',
+    percent_present: 25
+  },
+  {
+    week_number: 2,
+    present: '0',
+    absent: '0',
+    leave_count: '0',
+    late: '0',
+    percent_present: 0
+  }
+]

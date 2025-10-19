@@ -4,7 +4,7 @@ test('logout@api', async ({ request }) => {
   const response = await request.post('http://52.63.155.211/api/logout', {
     headers: {
       "Content-Type": "application/json",
-      "Authorization": "Bearer 7d0e807d5c4e2948e71c9175100836fa09b5aae046fbf94475b4d2fd9f146eb6",
+      "Authorization": "Bearer d5b0784263f5da84f9212d512a1189c78c6283b32a4b36f5b4cdd33211e06fb5",
     },
   });
 

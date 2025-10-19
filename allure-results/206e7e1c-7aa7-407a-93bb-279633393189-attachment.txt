@@ -1,0 +1,1 @@
+📩 Response Data: { message: 'Subject name updated.', id: 7, name_subject: 'Math' }

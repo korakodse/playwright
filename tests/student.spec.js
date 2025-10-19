@@ -3,7 +3,7 @@ test('summaryreport@api', async ({ request }) => {
   const response = await request.get('http://52.63.155.211/api/student/attendance-summary', {
     headers: {
       "Content-Type": "application/json",
-      "Authorization": "Bearer 6b6be87bdfae37e9d92e5bdadb1a6ca10a1473b11757a3c75f5cff0479c32f7c",
+      "Authorization": "Bearer e95e78070ee19c39da0b63e3c9d86e0f87c4f7f75dec348ebebb8eed16878917",
     },
   });
 
@@ -19,7 +19,7 @@ test('subreport@api', async ({ request }) => {
   const response = await request.get('http://52.63.155.211/api/student/classrooms/7/detail', {
     headers: {
       "Content-Type": "application/json",
-      "Authorization": "Bearer 6b6be87bdfae37e9d92e5bdadb1a6ca10a1473b11757a3c75f5cff0479c32f7c",
+      "Authorization": "Bearer e95e78070ee19c39da0b63e3c9d86e0f87c4f7f75dec348ebebb8eed16878917",
     },
   });
 
@@ -35,7 +35,7 @@ test('homereport@api', async ({ request }) => {
   const response = await request.get('http://52.63.155.211/api/student/subject-detail/7', {
     headers: {
       "Content-Type": "application/json",
-      "Authorization": "Bearer 6b6be87bdfae37e9d92e5bdadb1a6ca10a1473b11757a3c75f5cff0479c32f7c",
+      "Authorization": "Bearer e95e78070ee19c39da0b63e3c9d86e0f87c4f7f75dec348ebebb8eed16878917",
     },
   });
 

@@ -7,7 +7,7 @@ const response = await request.post('http://52.63.155.211/api/register', {
 data: {
 name:"Kaewta",
 lastname: "Apple",
-email: "kaewta.apple@example.com",
+email: "kaewtae@example.com",
 phone: "1234567890",
 password: "password123",
 password_confirmation: "password123",

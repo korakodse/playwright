@@ -1,9 +1,9 @@
 import { test, expect } from '@playwright/test';
 test('Deleteclassroom@api', async ({ request }) => {
     // การส่ง API แบบ delete และเก็บใส่ตัวแปร response
-    const response = await request.delete('http://52.63.155.211/api/classrooms/24', {
+    const response = await request.delete('http://52.63.155.211/api/classrooms/23', {
             headers:{"Content-Type":"application/json",
-                "Authorization": "Bearer 57a4fcb30e016e93efe9649fbd381954c228f6bce15c96d5b91855d15b7e8297",
+                "Authorization": "Bearer d5b0784263f5da84f9212d512a1189c78c6283b32a4b36f5b4cdd33211e06fb5",
             }   
         });
     

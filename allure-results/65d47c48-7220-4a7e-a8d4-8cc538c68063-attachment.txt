@@ -1,0 +1,29 @@
+📩 Response Data: {
+  message: 'Classroom created successfully.',
+  classroom: {
+    name_subject: 'Computer Science 101',
+    room_number: '702',
+    latitude: 14.856,
+    longitude: 103.4852,
+    code: '9RKFBMCZ',
+    required_days: 10,
+    reward_points: 5,
+    term_id: 3,
+    status: 1,
+    updated_at: '2025-10-19T03:39:47.000000Z',
+    created_at: '2025-10-19T03:39:47.000000Z',
+    id: 26,
+    schedules: [ [Object] ],
+    points: [ [Object], [Object] ],
+    users: [ [Object] ],
+    term: {
+      id: 3,
+      start_date: '2025-09-01',
+      end_date: '2025-12-23',
+      semester: '2',
+      year: '2025',
+      created_at: '2025-09-15T21:41:39.000000Z',
+      updated_at: '2025-09-15T21:41:39.000000Z'
+    }
+  }
+}

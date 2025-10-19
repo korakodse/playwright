@@ -4,8 +4,8 @@ test('create@api', async ({ request }) => {
   const response = await request.post('http://52.63.155.211/api/teacher/classrooms/create', {
     data: {
       name_subject: "Computer Science 101",
-      room_number: "",
-      latitude: 14.856,          // ตัวอย่างพิกัด กทม.
+      room_number: "702",
+      latitude: 14.856,          
       longitude: 103.4852,
       required_days: 10,
       reward_points: 5,
@@ -21,7 +21,7 @@ test('create@api', async ({ request }) => {
 
       schedules: [
         {
-          day_of_week: "เสาร์",
+          day_of_week: "Monday",
           time_start: "17:30",
           time_end: "20:00"
         }
@@ -40,7 +40,7 @@ test('create@api', async ({ request }) => {
     },
     headers: {
       "Content-Type": "application/json",
-      "Authorization": "Bearer 57a4fcb30e016e93efe9649fbd381954c228f6bce15c96d5b91855d15b7e8297",
+      "Authorization": "Bearer d5b0784263f5da84f9212d512a1189c78c6283b32a4b36f5b4cdd33211e06fb5"
     },
   });
 

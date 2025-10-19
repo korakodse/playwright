@@ -1,0 +1,13 @@
+📩 Response Data: {
+  message: 'เข้าสู่ระบบสำเร็จ',
+  token: 'd5b0784263f5da84f9212d512a1189c78c6283b32a4b36f5b4cdd33211e06fb5',
+  user: {
+    id: 2,
+    name: 'กรกฎ',
+    lastname: 'สีอยู่พุ่ม',
+    email: 'natthiwaneesarakhon@gmail.com',
+    phone: '0880832822',
+    role_id: 2,
+    department_id: 7
+  }
+}

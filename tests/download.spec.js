@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import fs from 'fs';
 
 test('reportatten@api', async ({ request }) => {
-  const response = await request.get('http://52.63.155.211/classrooms/7/attendance-pdf/0386dbea06997b4fc11aa0f49aeb44ce999e21b484f84830a3cd168926e5614e', {
+  const response = await request.get('http://52.63.155.211/classrooms/7/attendance-pdf/d5b0784263f5da84f9212d512a1189c78c6283b32a4b36f5b4cdd33211e06fb5', {
     headers: {
       "Content-Type": "application/json",
     },
@@ -23,7 +23,7 @@ test('reportatten@api', async ({ request }) => {
 });
 
 test('homedownload@api', async ({ request }) => {
-  const response = await request.get('http://52.63.155.211/student/home-attendance-pdf/2f01e963a7a3e593fad8b3842c640b1ebb4e80197984b01030fdc337d6aff8bb', {
+  const response = await request.get('http://52.63.155.211/student/home-attendance-pdf/e95e78070ee19c39da0b63e3c9d86e0f87c4f7f75dec348ebebb8eed16878917', {
     headers: {
       "Content-Type": "application/json",
     },

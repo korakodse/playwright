@@ -1,0 +1,1 @@
+📩 Response Data: { message: 'Classroom status updated.', status: '1' }

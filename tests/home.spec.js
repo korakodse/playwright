@@ -4,7 +4,7 @@ test('Teacher Home@api', async ({ request }) => {
   const response = await request.get('http://52.63.155.211/api/teacher/home', {
     headers: {
       "Content-Type": "application/json",
-      "Authorization": "Bearer 0386dbea06997b4fc11aa0f49aeb44ce999e21b484f84830a3cd168926e5614e",
+      "Authorization": "Bearer d5b0784263f5da84f9212d512a1189c78c6283b32a4b36f5b4cdd33211e06fb5",
     },
   });
 

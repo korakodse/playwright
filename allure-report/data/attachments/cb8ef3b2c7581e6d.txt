@@ -1,0 +1,1 @@
+📩 Response Data: { message: 'วันนี้ไม่มีเรียน', has_class_today: false, students: [] }

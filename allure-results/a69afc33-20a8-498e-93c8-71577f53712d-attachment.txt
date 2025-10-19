@@ -1,0 +1,119 @@
+📩 Response Data: [
+  {
+    id: 1,
+    name: 'ขิง',
+    lastname: 'นักเรียน',
+    present: '0',
+    absent: '0',
+    leave_count: '0',
+    late: '0'
+  },
+  {
+    id: 12,
+    name: 'ภานุพงษ์',
+    lastname: 'ทองมาก',
+    present: '0',
+    absent: '1',
+    leave_count: '0',
+    late: '0'
+  },
+  {
+    id: 13,
+    name: 'ณภัทร',
+    lastname: 'รัตนแสง',
+    present: '0',
+    absent: '0',
+    leave_count: '1',
+    late: '0'
+  },
+  {
+    id: 14,
+    name: 'นพนิช',
+    lastname: 'ประภา',
+    present: '0',
+    absent: '0',
+    leave_count: '0',
+    late: '1'
+  },
+  {
+    id: 15,
+    name: 'ธัญญารัตน์',
+    lastname: 'แก้วจา',
+    present: '1',
+    absent: '0',
+    leave_count: '0',
+    late: '0'
+  },
+  {
+    id: 18,
+    name: 'รัชดาภรณ์',
+    lastname: 'นะเรนสด',
+    present: '0',
+    absent: '1',
+    leave_count: '0',
+    late: '0'
+  },
+  {
+    id: 19,
+    name: 'สุพิชญา',
+    lastname: 'กุลพินิจ',
+    present: '0',
+    absent: '0',
+    leave_count: '1',
+    late: '0'
+  },
+  {
+    id: 20,
+    name: 'กรกมล',
+    lastname: 'หาญชนะ',
+    present: '0',
+    absent: '0',
+    leave_count: '0',
+    late: '1'
+  },
+  {
+    id: 21,
+    name: 'ภาริณี',
+    lastname: 'บุตรดี',
+    present: '1',
+    absent: '0',
+    leave_count: '0',
+    late: '0'
+  },
+  {
+    id: 22,
+    name: 'สุปวีร์',
+    lastname: 'จันทานิตย์',
+    present: '0',
+    absent: '1',
+    leave_count: '0',
+    late: '0'
+  },
+  {
+    id: 23,
+    name: 'วิศรุต',
+    lastname: 'ทองคำ',
+    present: '0',
+    absent: '0',
+    leave_count: '1',
+    late: '0'
+  },
+  {
+    id: 24,
+    name: 'วงศ์รพี',
+    lastname: 'วิลัยฤทธิ์',
+    present: '0',
+    absent: '0',
+    leave_count: '0',
+    late: '1'
+  },
+  {
+    id: 25,
+    name: 'เขมน้นท์',
+    lastname: 'สมรูป',
+    present: '1',
+    absent: '0',
+    leave_count: '0',
+    late: '0'
+  }
+]
